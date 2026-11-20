@@ -1,0 +1,36 @@
+/* Estilos tipográficos y globales. */
+body {
+  min-height: 100vh;
+  color: var(--color-text);
+  background: var(--color-surface);
+  font-family: var(--font-base);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+}
+
+h1 {
+  margin-bottom: var(--space-md);
+  color: var(--color-primary-dark);
+  font-size: clamp(2rem, 5vw, 3.25rem);
+}
+
+a {
+  color: var(--color-primary-dark);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.15em;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--color-primary);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}

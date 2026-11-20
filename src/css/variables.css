@@ -1,0 +1,20 @@
+/* Variables visuales compartidas del proyecto. */
+:root {
+  --color-primary: #6b3f2a;
+  --color-primary-dark: #4a2b1d;
+  --color-accent: #c6a15b;
+  --color-surface: #fffdf8;
+  --color-muted: #f1eadc;
+  --color-text: #28231f;
+  --color-border: #d8cdbd;
+  --font-base: "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-heading: Georgia, "Times New Roman", serif;
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --container-width: 70rem;
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+}
