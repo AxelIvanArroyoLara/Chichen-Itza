@@ -1,0 +1,18 @@
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistemas operativos
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Artefactos temporales
+*.tmp
+*.bak
+*.log
+dist/
+build/
+

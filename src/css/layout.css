@@ -1,0 +1,56 @@
+/* Estructura de navegación y contenedores principales. */
+.container {
+  width: min(100% - 2rem, var(--container-width));
+  margin-inline: auto;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-muted);
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-md);
+  min-height: 4.5rem;
+}
+
+.project-name {
+  font-weight: 700;
+}
+
+.site-nav ul {
+  display: flex;
+  gap: var(--space-md);
+}
+
+.welcome-section {
+  min-height: 24rem;
+  padding-block: var(--space-xl);
+}
+
+.welcome-section p {
+  max-width: 42rem;
+  font-size: 1.125rem;
+}
+
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  padding-block: var(--space-md);
+  color: #f8f4e9;
+  background: var(--color-primary-dark);
+}
+
+@media (max-width: 36rem) {
+  .site-header .container {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-block: var(--space-md);
+  }
+
+  .welcome-section {
+    min-height: 18rem;
+  }
+}

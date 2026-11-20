@@ -1,0 +1,8 @@
+@startuml
+' El modelo de entidades y relaciones está pendiente de definición por el equipo.
+' Agregar participantes, avatares, roles, guías, recorridos y zonas al aprobar el diseño.
+
+hide empty members
+
+' --- Definiciones pendientes ---
+@enduml
